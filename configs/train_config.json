@@ -1,0 +1,22 @@
+{
+  "model_id": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "max_seq_length": 640,
+  "num_train_samples": 800,
+  "per_device_train_batch_size": 2,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 8,
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "warmup_ratio": 0.03,
+  "max_steps": 200,
+  "fp16": true,
+  "logging_steps": 20,
+  "save_strategy": "no",
+  "seed": 42
+}
+
+
+
+
+copy con 
+cd\

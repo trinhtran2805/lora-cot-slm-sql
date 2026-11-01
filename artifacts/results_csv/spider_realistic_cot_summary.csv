@@ -1,0 +1,3 @@
+Phương pháp nghiên cứu,Pre-Repair EX,Post-Repair EX,Tăng trưởng (Δ EX),Cứu vãn thành công,Tỷ lệ Khôi phục,Lỗi cú pháp còn lại
+M2-CoT: Dynamic ICL,6.30% (32/508),22.83% (116/508),+16.54%,84 câu,19.05%,46.26% (235)
+M4-CoT: Fine-Tuned LoRA,34.45% (175/508),38.78% (197/508),+4.33%,22 câu,11.64%,28.15% (143)

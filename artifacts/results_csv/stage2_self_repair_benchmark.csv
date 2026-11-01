@@ -1,0 +1,5 @@
+Phương pháp,Pre-Repair EX,Post-Repair EX,Tăng trưởng (Δ EX),Cứu vãn thành công,Tỷ lệ Khôi phục,Lỗi cú pháp còn lại
+M1: Zero-Shot Baseline,19.15% (198),48.74% (504),+29.59%,306 câu,38.30%,28.05% (290)
+M2: Dynamic ICL (Light-SQL),33.66% (348),53.38% (552),+19.73%,204 câu,34.75%,25.73% (266)
+M3: Schema Pruning (Hong et al.),16.34% (169),47.49% (491),+31.14%,322 câu,38.89%,29.11% (301)
+M4: Fine-Tuned LoRA (FSLM-SQL),61.80% (639),61.22% (633),+-0.58%,-6 câu,-3.17%,14.31% (148)

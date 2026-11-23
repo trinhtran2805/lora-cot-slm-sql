@@ -1,0 +1,11 @@
+row,lora_marker_in_figure,cot_marker_in_figure,repair_entry_in_figure,official_ex_percent,official_em_percent,matched_experiment_id,source_log,metric_protocol,audit_note
+1,x,x,x,29.60,27.9,zero_shot_dev,artifacts/results_json/missing_experiments/zero_shot_dev.json,evaluation.py --etype all,
+2,,x,x,57.50,51.4,lora_sql_dev,artifacts/results_json/missing_experiments/lora_sql_dev.json,evaluation.py --etype all,
+3,x,,x,10.30,10.1,zero_shot_cot_dev,artifacts/results_json/missing_experiments/zero_shot_cot_dev.json,evaluation.py --etype all,
+4,,,naive,61.30,55.6,lora_cot_naive_repair_dev,artifacts/results_json/missing_experiments/lora_cot_naive_repair_dev.json,evaluation.py --etype all,
+5,,x,naive,59.20,52.1,lora_sql_naive_repair_dev,artifacts/results_json/missing_experiments/lora_sql_naive_repair_dev.json,evaluation.py --etype all,
+6,,x,cot,58.60,51.8,lora_sql_cot_repair_dev,artifacts/results_json/lora_sql_cot_repair_dev_full/lora_sql_cot_repair_dev.json,evaluation.py --etype all,Official Spider score; runner summary reports a different metric (59.86%)
+7,,,x,59.80,54.9,lora_cot_dev,artifacts/results_json/missing_experiments/lora_cot_dev.json,evaluation.py --etype all,
+8,x,,cot,14.20,12.8,zero_shot_cot_repair_dev,artifacts/results_json/missing_experiments/zero_shot_cot_repair_dev.json,evaluation.py --etype all,
+9,,,cot,61.10,55.6,lora_cot_repair_dev,artifacts/results_json/missing_experiments/lora_cot_repair_dev.json,evaluation.py --etype all,
+10,,,,17.50,15.7,zero_shot_cot_naive_repair_dev,artifacts/results_json/missing_experiments/zero_shot_cot_naive_repair_dev.json,evaluation.py --etype all,"Official Spider evaluation on all 1,034 Dev examples."

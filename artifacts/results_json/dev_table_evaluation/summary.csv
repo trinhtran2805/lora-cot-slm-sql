@@ -1,0 +1,10 @@
+experiment,examples,execution_accuracy,exact_match_accuracy
+zero_shot_dev,1034,29.60%,27.9%
+lora_sql_dev,1034,57.50%,51.4%
+zero_shot_cot_dev,1034,10.30%,10.1%
+lora_cot_naive_repair_dev,1034,61.30%,55.6%
+lora_sql_naive_repair_dev,1034,59.20%,52.1%
+lora_sql_cot_repair_dev,1034,58.60%,51.8%
+lora_cot_dev,1034,59.80%,54.9%
+zero_shot_cot_repair_dev,1034,14.20%,12.8%
+lora_cot_repair_dev,1034,61.10%,55.6%

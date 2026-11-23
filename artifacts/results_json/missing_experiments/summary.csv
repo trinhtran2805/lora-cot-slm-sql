@@ -1,0 +1,2 @@
+experiment,dataset,examples,correct,execution_accuracy
+zero_shot_cot_naive_repair_dev,spider_dev.json,1034,409,39.56%
